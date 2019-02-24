@@ -104,6 +104,10 @@
           inBetween = !inBetween
           console.log('starting to check them in between')
         }
+
+        if(inBetween) {
+          checkbox.checked = true
+        }
       })
     }
     lastChecked = this
